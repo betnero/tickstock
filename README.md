@@ -2,7 +2,6 @@
 Stock analysis.
 
 
-
 # FEATURES:
 1. Data download
     - Take user input about requested stock tickers

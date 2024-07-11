@@ -13,7 +13,7 @@ def tick_fixed(period, *args):
         print("{} added to file.".format(arg.upper()))
 
 
-# Function call example: 
+# Function call example:
 # tick_fixed('max', 'msft', 'aapl', 'goog')
 # First argument is the period. Periods available in pandas are as follows: 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max
 
@@ -31,4 +31,4 @@ def tick_custom(start, end, *args):
         print("{} added to file.".format(arg.upper()))
 
 # Function call example: 
-# EXAMPLE: tick_fixed('max', 'msft', 'aapl', 'goog')EXAMPLE: tick_custom('2020-01-01', '2020-12-31', 'msft', 'aapl', 'goog')
+# tick_fixed('max', 'msft', 'aapl', 'goog')EXAMPLE: tick_custom('2020-01-01', '2020-12-31', 'msft', 'aapl', 'goog')
