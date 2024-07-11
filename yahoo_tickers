@@ -1,4 +1,5 @@
-All Yahoo stock tickers acquired from: https://finance.yahoo.com/most-active/?_device=desktop&count=25&device=desktop&failsafe=1&offset=0&ynet=0
+Yahoo stock tickers acquired from: https://finance.yahoo.com/most-active/?_device=desktop&count=25&device=desktop&failsafe=1&offset=0&ynet=0
+File to be extended. 
 
 Symbol
 	Name	Price (Intraday)	Change	% Change	Volume
