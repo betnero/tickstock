@@ -1,3 +1,5 @@
+# STATUS: IN DEVELOPMENT
+
 # tickstock
 Stock analysis.
 
