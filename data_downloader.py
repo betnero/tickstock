@@ -15,6 +15,7 @@ def tick_fixed(period, *args):
 
 # Function call example: 
 # tick_fixed('max', 'msft', 'aapl', 'goog')
+# First argument is the period. Periods available in pandas are as follows: 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max
 
 # Download the data for all requested stock tickers, for a defined period of time and place in a csv file.
 def tick_custom(start, end, *args):
