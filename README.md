@@ -1,0 +1,2 @@
+# tickstock
+Stock analysis.
