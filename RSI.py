@@ -5,10 +5,10 @@ def rsi(csv_file, period):
 
     # Import the csv file into a dataframe
     csv_file = pd.read_csv(csv_file).head(period)
-    output = RSIIndicator(close=csv_file.head(period).Close, window=14, fillna=False)
-    print(output.rsi())
+    output_rsi = RSIIndicator(close=csv_file.head(period).Close, window=14, fillna=False)
+    print(output_rsi.rsi())
     # Plot RSI.
-    output.rsi().plot(label='RSI')
+    output_rsi.rsi().plot(label='RSI')
 
     # Set the labels for the axis.
     plt.xlabel("Date")
