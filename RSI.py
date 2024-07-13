@@ -20,7 +20,7 @@ def rsi(csv_file, period):
     plt.axhline(y=30, color='g', linestyle='--', label='Buy')
 
     # Plot legend location.
-    plt.legend(loc='left center')
+    plt.legend(loc='upper left')
 
     # Invert data on the x-axis.
     # gca - Get Current Axis. Revert xaxis to show data on xaxis from left (the oldest) to right (the newest)
