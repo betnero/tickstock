@@ -3,7 +3,7 @@ def rsi(csv_file, period):
     import pandas as pd
     import matplotlib.pyplot as plt
 
-    # Import the csv file into a dataframe
+    # Import the csv file into a dataframe.
     csv_file = pd.read_csv(csv_file).head(period)
     output_rsi = RSIIndicator(close=csv_file.head(period).Close, window=14, fillna=False)
     print(output_rsi.rsi())
@@ -23,7 +23,7 @@ def rsi(csv_file, period):
     plt.legend(loc='upper left')
 
     # Invert data on the x-axis.
-    # gca - Get Current Axis. Revert xaxis to show data on xaxis from left (the oldest) to right (the newest)
+    # gca - Get Current Axis. Revert xaxis to show data on xaxis from left (the oldest) to right (the newest).
     plt.gca().invert_xaxis()
 
     # Draw the plot with a grid.
