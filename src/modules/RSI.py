@@ -32,4 +32,4 @@ def rsi(csv_file, period):
 
 
 # Calling the function.
-rsi('aaplprices.csv', 50)
+rsi('../../data/aaplprices.csv', 50)

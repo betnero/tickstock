@@ -31,5 +31,5 @@ def macd(csv_file, period):
 
 
 # Calling the function.
-macd('aaplprices.csv', 60)
+macd('../../data/aaplprices.csv', 60)
 

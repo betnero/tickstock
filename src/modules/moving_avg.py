@@ -17,4 +17,4 @@ def moving_average(window_size, csv_file):
     plt.show()
 
 
-moving_average(1000, 'aaplprices.csv')
+moving_average(1000, '../../data/aaplprices.csv')
