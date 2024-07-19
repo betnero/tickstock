@@ -14,9 +14,9 @@ def macd(csv_file, period):
 
     # Plotting the data.
     plt.figure(figsize=(16, 4)).subplots()
-    output_macd.macd_signal().plot(label='Signal', color='r')  # MACD Signal == EMA(9)
+    output_macd.macd_signal().plot(label='Signal', color='r', alpha=0.4)  # MACD Signal == EMA(9)
     output_macd.macd_diff().plot.bar(label='MACDdiff (12,26)', color='g', alpha=0.4)  # EMA(12) - EMA(26)
-    output_macd.macd().plot(label='MACD (12,26,9)', color='b')  # MACD Signal == EMA(12) -EMA(26)
+    output_macd.macd().plot(label='MACD (12,26,9)', color='b', alpha=0.4)  # MACD Signal == EMA(12) -EMA(26)
 
     plt.grid(color='k', linestyle='-', linewidth=0.2, animated=True)
 
@@ -31,5 +31,5 @@ def macd(csv_file, period):
 
 
 # Calling the function.
-macd('../../data/aaplprices.csv', 60)
+macd('aaplprices.csv', 100)
 
