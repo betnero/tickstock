@@ -4,3 +4,4 @@ numpy
 openpyxl
 yfinance
 ta
+plotly
