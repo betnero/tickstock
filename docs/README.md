@@ -40,4 +40,5 @@ Stock analysis.
 APPLICATION STRUCTURE:
 1. Develop the app in a modular way
 2. Develop to make it an installable package (optional)
-3. ...
+3. Dockerize the application
+4. ...
