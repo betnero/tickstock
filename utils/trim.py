@@ -11,3 +11,5 @@ with open('/../docs/stock_tickers', 'r') as csvfile:
         if row:  # skip empty lines
 
             print(row[0].split(None)[0], end='\', \'')
+
+# Launch with: python ./trim.py | tee output.txt
