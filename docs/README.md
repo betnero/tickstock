@@ -35,7 +35,7 @@ Stock analysis.
 5. Allow all the features to be accessible for any data loaded externally (e.g. from an xlsx/csv file)
 
 6. GUI
-    - Develop a GUI for each of the features - ideas: TKinter, Grafna, Django.
+    - Develop a GUI for each of the features - ideas: plotly and dash.
 
 APPLICATION STRUCTURE:
 1. Develop the app in a modular way
