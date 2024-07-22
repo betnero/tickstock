@@ -10,14 +10,12 @@ def stats(csv_file):
 
     print('\n')
 
-
     # Basic information about data (metadata).
     print('========================================')
     print('--------------- DATA INFO --------------')
     print('========================================')
 
     df.info(verbose=True)
-
 
     print('\n')
 
@@ -30,7 +28,6 @@ def stats(csv_file):
 
     print('\n')
 
-
     # Statistics.
     print('========================================')
     print('------------ DATA STATISTICS -----------')
@@ -40,4 +37,4 @@ def stats(csv_file):
         print(df.describe(include='all'))
 
 
-stats('aaplprices.csv')
+stats('../app/aaplprices.csv')
