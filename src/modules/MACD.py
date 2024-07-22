@@ -1,4 +1,3 @@
-
 def macd(csv_file, period):
     from ta.trend import MACD
     import pandas as pd
@@ -20,16 +19,15 @@ def macd(csv_file, period):
 
     plt.grid(color='k', linestyle='-', linewidth=0.2, animated=True)
 
-    #csv_file.Close.plot()
+    # csv_file.Close.plot()
 
     plt.title('MACD')
     plt.xlabel('Date')
     plt.ylabel('MACD')
     plt.legend(loc='upper left')
-#    plt.gca().invert_xaxis()  # Reverting the axis.
+    #    plt.gca().invert_xaxis()  # Reverting the axis.
     plt.show()
 
 
 # Calling the function.
-macd('aaplprices.csv', 100)
-
+macd('../app/aaplprices.csv', 100)
