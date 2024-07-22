@@ -27,7 +27,7 @@ Stock analysis.
 4. Plotting stock indicators:
    - Bollinger Bands [FEATURE ADDED]
    - Candlesatick pot [FEATURE ADDED]
-   - MASD [FEATURE ADDED]
+   - MACD [FEATURE ADDED]
    - MA [FEATURE ADDED]
    - RSI [FEATURE ADDED]
    - Volume [FEATURE ADDED]
