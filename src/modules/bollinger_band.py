@@ -1,4 +1,5 @@
-# Source of the original code: https://technical-analysis-library-in-python.readthedocs.io/en/latest/index.html?highlight=bollinger#examples
+# Source of the original code:
+# https://technical-analysis-library-in-python.readthedocs.io/en/latest/index.html?highlight=bollinger#examples
 
 def bollinger(csv_file, period):
     import pandas as pd
@@ -32,4 +33,4 @@ def bollinger(csv_file, period):
     plt.show()
 
 
-bollinger('aaplprices.csv', 500)
+bollinger('../app/aaplprices.csv', 500)
