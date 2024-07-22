@@ -5,3 +5,8 @@ openpyxl
 yfinance
 ta
 plotly
+dash
+dash-mantine-components==0.12.1
+plotly.express
+dash
+dash_mantine_components
