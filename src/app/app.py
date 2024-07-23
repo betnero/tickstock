@@ -18,7 +18,10 @@ app.layout = [
     dcc.RadioItems(options=['Close', 'Open', 'High', 'Low', 'Volume'], value='Close', inline=True,
                    id='controls-and-radio-item'),
     dash_table.DataTable(data=df.to_dict('records'), page_size=6),
-    dcc.Graph(figure={}, id='controls-and-graph')
+    dcc.Graph(figure={}, id='controls-and-graph'),
+
+    html.Div(children='Volume'),
+    dcc.Graph(figure=px.bar(df, x='Date', y='Volume', color_discrete_sequence=['green'], text_auto='.1s')),
 ]
 
 
