@@ -1,5 +1,5 @@
 # This script takes a full list of stock tickers (with their names) and transforms it into a single line with only
-# tickers ready for use as to download data.
+# tickers ready for use to download data.
 
 import csv
 
