@@ -9,6 +9,7 @@ Stock analysis and plots of basic indicators (RSI, MACD, Bollinger bands).
     - Download data for all requested stock tickers for the requested time interval [FEATURE ADDED]
     - Load the data into a csv file [FEATURE ADDED]
     - Place the csv in a specific directory
+    - Place data in a database (sqlite) [FEATURE ADDED]
 
 2. Data analysis:
     - Provide descriptive statistics in a csv or xlsx file [FEATURE ADDED]
@@ -17,6 +18,8 @@ Stock analysis and plots of basic indicators (RSI, MACD, Bollinger bands).
     - Transform the csv data into an xlsx or any other format data at user request
     - Allow user to change data
     - Provide a list of all stock tickers at user request [FEATURE ADDED]
+    - Place data in a database (sqlite) [FEATURE ADDED]
+
 
 3. Plotting
     - Plot stock prices for the chosen by the user stock with the price at trading day 'Close' or 'Open' 
