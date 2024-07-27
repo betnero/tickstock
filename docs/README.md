@@ -10,6 +10,7 @@ Stock analysis and plots of basic indicators (RSI, MACD, Bollinger bands).
     - Load the data into a csv file [FEATURE ADDED]
     - Place the csv in a specific directory
     - Place data in a database (sqlite) [FEATURE ADDED]
+    - Provide a mechanism for database manipulation [FEATURE ADDED]
 
 2. Data analysis:
     - Provide descriptive statistics in a csv or xlsx file [FEATURE ADDED]
