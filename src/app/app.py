@@ -21,7 +21,7 @@ app.layout = [
     dcc.Graph(figure={}, id='controls-and-graph'),
 
     html.Div(children='Volume'),
-    dcc.Graph(figure=px.bar(df, x='Date', y='Volume', color_discrete_sequence=['green'], text_auto='.1s')),  # TODO: Font size to be corrected.
+    dcc.Graph(figure=px.bar(df, x='Date', y='Volume', color_discrete_sequence=['green'], text_auto='.1s')),
 ]
 
 
