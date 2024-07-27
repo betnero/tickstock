@@ -1,4 +1,4 @@
-# STATUS: IN DEVELOPMENT
+# STATUS: IN DEVELOPMENT 
 
 # tickstock
 Stock analysis and plots of basic indicators (RSI, MACD, Bollinger bands).
