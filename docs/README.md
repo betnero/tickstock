@@ -1,7 +1,7 @@
 # STATUS: IN DEVELOPMENT
 
 # tickstock
-Stock analysis.
+Stock analysis and plots of basic indicators.
 
 # FEATURES:
 1. Data download
