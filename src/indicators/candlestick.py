@@ -48,4 +48,4 @@ def candlestick(csv_file):
 
 
 # Call the function.
-candlestick('../../data/aaplprices.csv')
+candlestick('../data_storage/aaplprices.csv')

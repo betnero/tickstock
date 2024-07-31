@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 import dash_mantine_components as dmc
 
-# Incorporate data
+# Incorporate data_storage
 df = pd.read_csv('aaplprices.csv')
 
 # Initialize the app

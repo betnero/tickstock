@@ -4,7 +4,7 @@ def roc(csv_file, period):
     import matplotlib.pyplot as plt
 
     # Import the csv file into a dataframe.
-    csv_file = pd.read_csv('../../data/aaplprices.csv').head(period)
+    csv_file = pd.read_csv('../data_storage/aaplprices.csv').head(period)
     output_roc = ROCIndicator(close=csv_file.Close, window=12, fillna=False)
     print(output_roc.roc())
 
@@ -27,4 +27,4 @@ def roc(csv_file, period):
     plt.show()
 
 
-roc('../../data/aaplprices.csv', 30)
+roc('../data_storage/aaplprices.csv', 30)

@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-
 def volume(csv_file):
     # Import csv file as a frame.
     csv_file = pd.read_csv(csv_file)
@@ -21,5 +20,6 @@ def volume(csv_file):
     plt.legend(loc='upper left')
 
     plt.show()
+
 
 # volume('aaplprices.csv')

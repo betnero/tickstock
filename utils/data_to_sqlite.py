@@ -1,4 +1,4 @@
-# The script downloads ALL stock data available via yfinance library, for the maximum period available and puts it in
+# The script downloads ALL stock data_storage available via yfinance library, for the maximum period available and puts it in
 # a sqlite DB.
 
 import yfinance as yf
@@ -28,7 +28,7 @@ with open('tickers_cleaned.txt', 'r') as f:
         adj_prices = data['Adj Close'].tolist()
         volume_prices = data['Volume'].tolist()
 
-        # Upload data into the database
+        # Upload data_storage into the database
         stock_prices = [(date, match, open_price, high_price, low_price, close_price, adj_price, volume_price )
                         for date, open_price, high_price, low_price, close_price, adj_price, volume_price in
                         zip(dates, open_prices, high_prices, low_prices, close_prices, adj_prices, volume_prices)]

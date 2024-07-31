@@ -540,7 +540,7 @@ Z_tickers = {'Z', 'ZAPP', 'ZAPPW', 'ZBAO', 'ZBH', 'ZBRA', 'ZCAR', 'ZCARW', 'ZCMD
              'ZPTAW', 'ZS', 'ZTEK', 'ZTO', 'ZTR', 'ZTS', 'ZUMZ', 'ZUO', 'ZURA', 'ZURAW', 'ZVIA', 'ZVRA', 'ZVSA', 'ZWS',
              'ZYME', 'ZYXI'}
 
-# The script downloads stock data for all tickers listed starting with a specific letter.
+# The script downloads stock data_storage for all tickers listed starting with a specific letter.
 import pandas as pd
 import yfinance as yf
 

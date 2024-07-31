@@ -1,15 +1,17 @@
-# The script downloads ALL stock data available via yfinance library, for the maximum period available and puts it in
-# a sqlite DB.
+# The script downloads ALL stock data_storage available via yfinance library, for the maximum period available and puts
+# it in a sqlite DB.
 
 import yfinance as yf
 import sqlite3
 import re
 
+
 with open('tickers_cleaned.txt', 'r') as f:
-    for match in re.findall(r"'(.*?)'", f.read()):
+    for match in re.findall(r"'(.*?)'", f.read()): # .*? will match any sequence of characters (including none)
+        # but will stop as soon as it can and still allowing the rest of the regex to match.
 
         # DB connection
-        conn = sqlite3.connect('stock_prices.db')
+        conn = sqlite3.connect('../data_storage/stock_prices.db')
         c = conn.cursor()
 
         # Create a table
@@ -28,7 +30,7 @@ with open('tickers_cleaned.txt', 'r') as f:
         adj_prices = data['Adj Close'].tolist()
         volume_prices = data['Volume'].tolist()
 
-        # Upload data into the database
+        # Upload data_storage into the database
         stock_prices = [(date, match, open_price, high_price, low_price, close_price, adj_price, volume_price )
                         for date, open_price, high_price, low_price, close_price, adj_price, volume_price in
                         zip(dates, open_prices, high_prices, low_prices, close_prices, adj_prices, volume_prices)]

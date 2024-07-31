@@ -2,7 +2,7 @@ import pandas as pd
 
 
 def stats(csv_file):
-    # Load the csv file with data.
+    # Load the csv file with data_storage.
     df = pd.read_csv(csv_file)
 
     # Remove missing values.
@@ -10,7 +10,7 @@ def stats(csv_file):
 
     print('\n')
 
-    # Basic information about data (metadata).
+    # Basic information about data_storage (metadata).
     print('========================================')
     print('--------------- DATA INFO --------------')
     print('========================================')
@@ -19,7 +19,7 @@ def stats(csv_file):
 
     print('\n')
 
-    # Example of how th data is structured in the frame.
+    # Example of how th data_storage is structured in the frame.
     print('========================================')
     print('--------- DATA STRUCTURE - 5 ROWS ------')
     print('========================================')
@@ -37,4 +37,4 @@ def stats(csv_file):
         print(df.describe(include='all'))
 
 
-stats('../app/aaplprices.csv')
+#stats('../app/aaplprices.csv')

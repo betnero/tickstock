@@ -6,7 +6,7 @@ def bollinger(csv_file, period):
     from ta.volatility import BollingerBands
     import matplotlib.pyplot as plt
 
-    # Import the data from a csv file into a dataframe.
+    # Import the data_storage from a csv file into a dataframe.
     csv_file = pd.read_csv(csv_file).head(period)
 
     # Calculate the Bollinger Bands.

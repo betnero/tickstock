@@ -11,7 +11,7 @@ def macd(csv_file, period):
     print(output_macd.macd())
     print(csv_file.head(period))
 
-    # Plotting the data.
+    # Plotting the data_storage.
     plt.figure(figsize=(16, 4)).subplots()
     output_macd.macd_signal().plot(label='Signal', color='r', alpha=0.4)  # MACD Signal == EMA(9)
     output_macd.macd_diff().plot.bar(label='MACDdiff (12,26)', color='g', alpha=0.4)  # EMA(12) - EMA(26)

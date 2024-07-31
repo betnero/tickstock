@@ -22,8 +22,8 @@ def rsi(csv_file, period):
     # Plot legend location.
     plt.legend(loc='upper left')
 
-    # Invert data on the x-axis.
-    # gca - Get Current Axis. Revert xaxis to show data on xaxis from left (the oldest) to right (the newest).
+    # Invert data_storage on the x-axis.
+    # gca - Get Current Axis. Revert xaxis to show data_storage on xaxis from left (the oldest) to right (the newest).
     plt.gca().invert_xaxis()
 
     # Draw the plot with a grid.
@@ -32,4 +32,4 @@ def rsi(csv_file, period):
 
 
 # Calling the function.
-rsi('../../data/aaplprices.csv', 50)
+rsi('../data_storage/aaplprices.csv', 50)
