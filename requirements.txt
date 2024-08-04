@@ -9,3 +9,4 @@ dash
 dash-mantine-components==0.12.1
 plotly.express
 dash
+tabulate
