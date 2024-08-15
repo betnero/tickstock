@@ -8,7 +8,7 @@ Stock analysis and plots of basic indicators (RSI, MACD, Bollinger bands).
     - Take user input about requested stock tickers [FEATURE ADDED]
     - Download data for all requested stock tickers for the requested time interval [FEATURE ADDED]
     - Load the data into a csv file [FEATURE ADDED]
-    - Place the csv in a specific directory
+    - Place the csv in a specific directory [FEATURE ADDED]
     - Place data in a database (sqlite) [FEATURE ADDED]
     - Provide a mechanism for database manipulation [FEATURE ADDED]
 
@@ -16,8 +16,8 @@ Stock analysis and plots of basic indicators (RSI, MACD, Bollinger bands).
     - Provide descriptive statistics in a csv or xlsx file [FEATURE ADDED]
     - Calculate the moving average for 5, 10, 15, 30, 60, 90 or custom number of days. Place it in a file in a specific directory
     - Calculate bollinger band [FEATURE ADDED]
-    - Transform the csv data into an xlsx or any other format data at user request
-    - Allow user to change data
+    - Transform the csv data into an xlsx or any other format data at user request [FEATURE ADDED]
+    - Allow user to change data [FEATURE ADDED]
     - Provide a list of all stock tickers at user request [FEATURE ADDED]
     - Place data in a database (sqlite) [FEATURE ADDED]
 
